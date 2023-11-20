@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+}
+
+@font-face {
+    font-family: 'daft';
+    src: url('daftfont.TTF');
+}
+
+body {
+    background: linear-gradient(to bottom, #1a2a6c, #b21f1f, #fdbb2d);
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-family: 'daft';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+    
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+#header {
+    text-align: center;
+}
+
+#logo {
+    width: 1.2em;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#logo2 {
+    width: 1.2em;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#daft1 {
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25em;
+}
+
+#daft2 {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 70%;
+}
+
+footer {
+    clear: both;
+    text-align: center; /* Aggiunto per centrare il testo nel footer */
+    background-color: #333; /* Aggiunto un colore di sfondo per maggiore visibilità */
+    color: white;
+    padding: 10px;
+}
+
+#divdaft2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Aggiunto per centrare verticalmente */
+}
